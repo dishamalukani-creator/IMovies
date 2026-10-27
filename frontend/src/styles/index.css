@@ -1,0 +1,22 @@
+/* Import Bootstrap CSS */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Import Custom Cinematic Theme */
+@import './theme.css';
+
+/* Global utilities */
+.bg-cinema-dark {
+  background-color: var(--bg-primary) !important;
+}
+
+.bg-cinema-card {
+  background-color: var(--bg-secondary) !important;
+}
+
+.text-cinema-accent {
+  color: var(--accent-red) !important;
+}
+
+.text-muted-cinema {
+  color: var(--text-secondary) !important;
+}
